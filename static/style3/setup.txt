@@ -1,0 +1,17 @@
+page.headerData.1441 = COA
+page.headerData.1441.if.isFalse = {$plugin.rzcolorbox.deactivate}
+                                    
+# # CSS File defined in Constants?      
+page.headerData.1441.1 = TEXT
+page.headerData.1441.1.value (
+
+<link type="text/css" media="screen" rel="stylesheet" href="typo3conf/ext/rzcolorbox/res/style3/css/colorbox.css" />
+)
+page.headerData.1441.1.if.isFalse = {$plugin.rzcolorbox.cssPath}
+
+page.headerData.1441.2 = TEXT
+page.headerData.1441.2.value (
+
+<link type="text/css" media="screen" rel="stylesheet" href="{$plugin.rzcolorbox.cssPath}" />
+)
+page.headerData.1441.2.if.isTrue = {$plugin.rzcolorbox.cssPath}

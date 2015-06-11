@@ -1,0 +1,10 @@
+plugin.rzcolorboxNews {
+    # cat=rzcolorbox/enable/010; type=boolean; label=Enable tt_news Single View: This enables the ColorBox for tt_news Images in single view;
+    ttnewsSingle = 0 
+
+    # cat=rzcolorbox/enable/020; type=boolean; label=Enable tt_news List View: This enables the ColorBox for tt_news Images in list view;
+    ttnewsList = 0 
+
+    # cat=rzcolorbox/enable/030; type=boolean; label=Enable tt_news Latest View: This enables the ColorBox for tt_news Images in latest view;
+    ttnewsLatest = 0 
+}
